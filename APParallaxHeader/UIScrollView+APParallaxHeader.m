@@ -171,7 +171,7 @@ static char UIScrollViewParallaxView;
     if(self = [super initWithFrame:frame]) {
         
         // default styling values
-        [self setAutoresizingMask:UIViewAutoresizingFlexibleHeight];
+//        [self setAutoresizingMask:UIViewAutoresizingFlexibleHeight];
         [self setState:APParallaxTrackingActive];
         [self setAutoresizesSubviews:YES];
         
